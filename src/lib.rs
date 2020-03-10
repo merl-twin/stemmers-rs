@@ -35,27 +35,4 @@ impl Stemmer {
     }
 }
 
-
-#[cfg(test)]
-mod tests {
-    use super::Stemmer;
-
-    #[test]
-    fn test_rus() {
-        let list = ["слова","газпром","газпрома","авен","авена" ];
-        for w in &list {
-            println!("{} -> {}",w,Stemmer::Russian.stem(w));
-        }
-        panic!("")
-    }
-    #[test]
-    fn test_eng() {
-        let list = ["wars"];
-        for w in &list {
-            println!("{} -> {}",w,Stemmer::English.stem(w));
-        }
-        panic!("")
-    }
-}
-
     
