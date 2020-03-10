@@ -1,0 +1,13 @@
+[package]
+name = "stemmers"
+version = "0.1.0"
+authors = ["merl <merl.001.mia@gmail.com>"]
+edition = "2018"
+
+
+[build-dependencies]
+snowball = { git = "https://github.com/merl-twin/snowball.git", branch = "rust-standalone-compiler" }
+
+[dependencies]
+snowball = { git = "https://github.com/merl-twin/snowball.git", branch = "rust-standalone-compiler" }
+

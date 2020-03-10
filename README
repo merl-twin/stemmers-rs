@@ -1,0 +1,4 @@
+Wrapper for snowball engine (https://github.com/JDemler/snowball).
+
+Main issue is to make it easy to recompile rust library after updating .sbl script.
+Only two languages is on board now, but it is easy to add new sbl script with new language.
